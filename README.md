@@ -4,4 +4,4 @@
 
 ## Behind the name
 
-- Combining "Digit" for digital and "Vault" for safe, transmitting security and digitality.
+- Combining "Digi" for digital and "Vault" for safe, transmitting security and digitality.
