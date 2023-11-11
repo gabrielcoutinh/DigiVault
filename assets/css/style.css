@@ -58,7 +58,7 @@ header {
 }
 
 .nav-link:hover {
-  color: var(--color-gray-800);
+  opacity: 0.6;
 }
 
 .login-button button {
@@ -66,7 +66,7 @@ header {
   margin: 2px;
   padding: 8px 8px;
   border-radius: 6px;
-  background-color: var(--color-gray-700);
+  background-color: transparent;
   transition: all 0.4s;
 }
 
@@ -77,8 +77,16 @@ header {
 .login-button button a {
   text-decoration: none;
   color: #fff;
-  font-weight: 600;
-  font-size: 1.25rem;
+  /* font-weight: 600; */
+  /* font-size: 1.25rem; */
+}
+
+.store-icon {
+  width: 120px;
+  border: none;
+  margin: 0;
+  padding: 0;
+  border-radius: 6px;
 }
 
 .mobile-menu-icon {

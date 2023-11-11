@@ -1,6 +1,6 @@
 # DigiVault
 
-- This is a landing page / institutional website for a digital bank. 
+- This is a modern institutional website for a digital bank.
 
 ## Behind the name
 
