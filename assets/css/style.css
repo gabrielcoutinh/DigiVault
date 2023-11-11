@@ -13,7 +13,7 @@
 /* HEADER */
 
 header {
-  background-color: var(--color-gray-600);
+  background-color: var(--color-gray-950);
 }
 
 .nav-bar {
@@ -30,8 +30,7 @@ header {
 
 .logo h1 {
   color: #fff;
-  font-size: 600;
-  font-size: 1.25rem;
+  font-size: 2.5rem;
 }
 
 .nav-list {
@@ -51,7 +50,7 @@ header {
 
 .nav-link {
   text-decoration: none;
-  font-size: 1.25rem;
+  font-size: 2rem;
   color: #fff;
   font-weight: 600;
   transition: all 0.4s;
@@ -63,8 +62,8 @@ header {
 
 .login-button button {
   border: none;
-  margin: 2px;
-  padding: 8px 8px;
+  margin: 0.5px;
+  padding: 8px 2px;
   border-radius: 6px;
   background-color: transparent;
   transition: all 0.4s;
@@ -77,12 +76,10 @@ header {
 .login-button button a {
   text-decoration: none;
   color: #fff;
-  /* font-weight: 600; */
-  /* font-size: 1.25rem; */
 }
 
 .store-icon {
-  width: 120px;
+  width: 9rem;
   border: none;
   margin: 0;
   padding: 0;
@@ -145,6 +142,9 @@ header {
   --color-neutral-30: #a8a29e;
   --color-neutral-40: #f5f5f5;
 
+  --color-gray-50: #f8fafc;
+  --color-gray-100: #f3f4f6;
+  --color-gray-200: #e4e4e7;
   --color-gray-300: #d1d5db;
   --color-gray-400: #9ca3af;
   --color-gray-500: #6b7280;
@@ -156,15 +156,108 @@ header {
 }
 
 main {
-  height: 80vh;
+  height: 100%;
+  color: #fff;
 }
 
 main {
+  background-color: var(--color-gray-300);
+}
+
+.container {
+  position: static;
+  display: flex;
+  color: #fff;
   background-image: linear-gradient(
     to top,
-    var(--color-gray-300),
-    var(--color-gray-400),
-    var(--color-gray-500)
+    var(--color-gray-300) 10%,
+    var(--color-gray-400) 40%,
+    var(--color-gray-600)
+  );
+}
+
+.container-info {
+  width: 35rem;
+  margin: 15rem;
+  margin-left: 25rem;
+}
+
+.container-info h2 {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  text-shadow: 0.5px 0.5px var(--color-gray-950);
+}
+
+.container-info p {
+  margin: 3px;
+  font-size: 1rem;
+  text-shadow: 0.5px 0.5px var(--color-gray-950);
+}
+
+.container-button-one {
+  margin: 3px 2px;
+  text-align: center;
+  font-size: 1rem;
+  border: 1px solid var(--color-gray-600);
+  margin: 2px;
+  transition: all 0.4s;
+  padding: 12px 6px;
+  border-radius: 6px;
+  background-color: var(--color-gray-600);
+}
+
+.container-button-two {
+  margin: 3px 2px;
+  text-align: center;
+  font-size: 1rem;
+  border: 1px solid var(--color-gray-600);
+  margin: 2px;
+  transition: all 0.4s;
+  padding: 12px 6px;
+  border-radius: 6px;
+  background-color: transparent;
+  transition: all 0.4s;
+}
+
+.container-button-one:hover,
+.container-button-two:hover {
+  opacity: 0.5;
+}
+
+.container-button-one a,
+.container-button-two a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.container-image {
+  width: 20rem;
+}
+
+#home {
+  background-image: linear-gradient(
+    to top,
+    var(--color-gray-800) 10%,
+    var(--color-gray-900) 40%,
+    var(--color-gray-950)
+  );
+}
+
+#services {
+  background-image: linear-gradient(
+    to top,
+    var(--color-gray-500) 10%,
+    var(--color-gray-600) 40%,
+    var(--color-gray-700)
+  );
+}
+
+#about-us {
+  background-image: linear-gradient(
+    to top,
+    var(--color-gray-200) 10%,
+    var(--color-gray-300) 40%,
+    var(--color-gray-400)
   );
 }
 
@@ -180,7 +273,7 @@ footer {
 }
 
 #footer_content {
-  background-color: var(--color-gray-600);
+  background-color: var(--color-gray-950);
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   padding: 3rem 3.5rem;
