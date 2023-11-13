@@ -156,6 +156,7 @@ main {
   /* width: 100vw; */
   color: #fff;
   background-color: transparent;
+  display: inline;
 }
 
 .container {
@@ -170,19 +171,22 @@ main {
   margin: 14rem;
 }
 
+#services-box {
+}
+
 .container-info h2 {
-  font-size: 2.5rem;
+  font-size: 3rem;
   text-transform: uppercase;
   text-shadow: 0.5px 0.5px var(--color-gray-950);
   color: #fff;
-  margin: 6px;
+  margin: 10px;
 }
 
 .container-info p {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   text-shadow: 0.5px 0.5px var(--color-gray-950);
   color: #fff;
-  margin: 8px;
+  margin: 10px;
 }
 
 .container-button-one {
@@ -195,7 +199,7 @@ main {
   background-color: var(--color-gray-600);
 
   color: #fff;
-  margin: 8px;
+  margin: 10px;
 }
 
 .container-button-two {
@@ -209,7 +213,7 @@ main {
   transition: all 0.4s;
 
   color: #fff;
-  margin: 8px;
+  margin: 10px;
 }
 
 .container-button-one:hover,
@@ -224,7 +228,7 @@ main {
 }
 
 .container-image {
-  width: 30rem;
+  width: 34rem;
   margin: 6rem;
 }
 
@@ -306,12 +310,16 @@ footer {
   background: linear-gradient(#7f37c9, #ff2992, #ff9807);
 }
 
-#facebook {
-  background-color: #4267b3;
+#twitter {
+  background-color: #00acee;
 }
 
-#whatsapp {
-  background-color: #25d366;
+#youtube {
+  background-color: red;
+}
+
+#tiktok {
+  background-color: black;
 }
 
 .footer-list {
