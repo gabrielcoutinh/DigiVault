@@ -6,6 +6,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+
   letter-spacing: 1px;
   font-family: "Nunito", sans-serif;
 }
@@ -137,11 +138,6 @@ header {
 /* MAIN */
 
 :root {
-  --color-neutral-0: #0e0c0c;
-  --color-neutral-10: #171717;
-  --color-neutral-30: #a8a29e;
-  --color-neutral-40: #f5f5f5;
-
   --color-gray-50: #f8fafc;
   --color-gray-100: #f3f4f6;
   --color-gray-200: #e4e4e7;
@@ -158,10 +154,7 @@ header {
 main {
   height: 100%;
   color: #fff;
-}
-
-main {
-  background-color: var(--color-gray-300);
+  background-color: transparent;
 }
 
 .container {
@@ -189,17 +182,14 @@ main {
 }
 
 .container-info p {
-  margin: 3px;
   font-size: 1rem;
   text-shadow: 0.5px 0.5px var(--color-gray-950);
 }
 
 .container-button-one {
-  margin: 3px 2px;
   text-align: center;
   font-size: 1rem;
   border: 1px solid var(--color-gray-600);
-  margin: 2px;
   transition: all 0.4s;
   padding: 12px 6px;
   border-radius: 6px;
@@ -211,7 +201,6 @@ main {
   text-align: center;
   font-size: 1rem;
   border: 1px solid var(--color-gray-600);
-  margin: 2px;
   transition: all 0.4s;
   padding: 12px 6px;
   border-radius: 6px;
@@ -259,6 +248,11 @@ main {
     var(--color-gray-300) 40%,
     var(--color-gray-400)
   );
+}
+
+.container-info h2 p {
+  padding: 2px;
+  margin: 2px;
 }
 
 /* FOOTER */
