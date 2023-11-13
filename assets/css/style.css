@@ -171,9 +171,6 @@ main {
   margin: 14rem;
 }
 
-#services-box {
-}
-
 .container-info h2 {
   font-size: 3rem;
   text-transform: uppercase;
@@ -194,7 +191,7 @@ main {
   font-size: 1rem;
   border: 1px solid var(--color-gray-600);
   transition: all 0.4s;
-  padding: 12px 6px;
+  padding: 12px 12px;
   border-radius: 6px;
   background-color: var(--color-gray-600);
 
@@ -207,7 +204,7 @@ main {
   font-size: 1rem;
   border: 0.5px solid var(--color-gray-600);
   transition: all 0.4s;
-  padding: 12px 6px;
+  padding: 12px 12px;
   border-radius: 6px;
   background-color: transparent;
   transition: all 0.4s;
