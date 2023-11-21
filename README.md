@@ -6,8 +6,10 @@
 
 - Combining "Digi" for digital and "Vault" for safe, transmitting security and digitality.
 
-## Future features
+### Future features
 
-- add page swipe indicator
-- apply animations
-- Make main responsive
+- Refactor code.
+- Re-design page.
+- Add page swipe indicator.
+- Apply animations.
+- Make main responsive.
