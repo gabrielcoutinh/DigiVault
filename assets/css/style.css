@@ -7,7 +7,7 @@
   margin: 0;
   box-sizing: border-box;
 
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   font-family: "Nunito", sans-serif;
 }
 
@@ -23,15 +23,10 @@ header {
   padding: 2rem 4rem;
 }
 
-.logo {
-  display: flex;
-  align-items: center;
-  cursor: pointer;
-}
-
 .logo h1 {
-  color: #fff;
-  font-size: 2rem;
+  color: var(--color-gray-50);
+  font-size: 2.5rem;
+  cursor: pointer;
 }
 
 .nav-list {
@@ -51,40 +46,32 @@ header {
 
 .nav-link {
   text-decoration: none;
-  font-size: 1.5rem;
-  color: #fff;
-  font-weight: 600;
-  transition: all 0.4s;
+  font-size: 2rem;
+  color: var(--color-gray-200);
+  transition: all 0.6s;
 }
 
 .nav-link:hover {
-  opacity: 0.6;
+  opacity: 0.4;
 }
 
 .login-button button {
-  border: none;
-  margin: 0.5px;
-  padding: 8px 2px;
+  margin-top: 6px;
+  size: 2.5rem;
+  border: 1px solid var(--color-gray-50);
   border-radius: 6px;
   background-color: transparent;
-  transition: all 0.4s;
+  transition: all 0.6s;
 }
 
 .login-button button:hover {
-  opacity: 0.6;
-}
-
-.login-button button a {
-  text-decoration: none;
-  color: #fff;
+  opacity: 0.4;
 }
 
 .store-icon {
-  width: 8rem;
+  display: flex;
+  align-items: center;
   border: none;
-  margin: 0;
-  padding: 0;
-  border-radius: 6px;
 }
 
 .mobile-menu-icon {
@@ -129,6 +116,7 @@ header {
   }
   .mobile-menu .login-button button {
     width: 100%;
+    border: none;
   }
   .open {
     display: block;
@@ -152,17 +140,11 @@ header {
 }
 
 main {
-  /* height: 100%; */
-  /* width: 100vw; */
-  color: #fff;
   background-color: transparent;
-  display: inline;
 }
 
 .container {
-  position: static;
   display: flex;
-  color: #fff;
   background-color: transparent;
 }
 
@@ -172,56 +154,48 @@ main {
 }
 
 .container-info h2 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   text-transform: uppercase;
-  text-shadow: 0.5px 0.5px var(--color-gray-950);
-  color: #fff;
-  margin: 10px;
+  color: var(--color-gray-50);
 }
 
 .container-info p {
-  font-size: 1.5rem;
-  text-shadow: 0.5px 0.5px var(--color-gray-950);
-  color: #fff;
-  margin: 10px;
+  font-size: 2rem;
+  color: var(--color-gray-100);
+  margin-top: 1rem;
 }
 
 .container-button-one {
   text-align: center;
   font-size: 1rem;
-  border: 1px solid var(--color-gray-600);
-  transition: all 0.4s;
+  border: 1px solid var(--color-gray-700);
   padding: 12px 12px;
   border-radius: 6px;
-  background-color: var(--color-gray-600);
-
-  color: #fff;
-  margin: 10px;
+  background-color: var(--color-gray-700);
+  margin-top: 1rem;
+  transition: all 0.6s;
 }
 
 .container-button-two {
   text-align: center;
   font-size: 1rem;
-  border: 0.5px solid var(--color-gray-600);
-  transition: all 0.4s;
+  border: 1px solid var(--color-gray-700);
   padding: 12px 12px;
   border-radius: 6px;
   background-color: transparent;
-  transition: all 0.4s;
-
-  color: #fff;
-  margin: 10px;
+  margin-top: 1rem;
+  transition: all 0.6s;
 }
 
 .container-button-one:hover,
 .container-button-two:hover {
-  opacity: 0.5;
+  opacity: 0.4;
 }
 
 .container-button-one a,
 .container-button-two a {
   text-decoration: none;
-  color: #fff;
+  color: var(--color-gray-50);
 }
 
 .container-image {
